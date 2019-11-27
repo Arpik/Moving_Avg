@@ -1,9 +1,7 @@
 import bs4
 import requests
 from bs4 import BeautifulSoup
-import threading
 import pandas as pd
-import queue
 
 def get_price():
     r = requests.get('https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD')
