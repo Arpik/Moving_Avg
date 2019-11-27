@@ -27,8 +27,8 @@ def get_moving_avg():
 #     return sum(mlist) / len(mlist)
 
 
-my_list = get_moving_avg()
+mov_avg_list = get_moving_avg()
 
-print(my_list)
+print(mov_avg_list)
 
 
