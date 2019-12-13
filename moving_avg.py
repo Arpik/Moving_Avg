@@ -13,7 +13,7 @@ def get_price():
     price = soup.find_all('div', {'class':'D(ib) smartphone_Mb(10px) W(70%) W(100%)--mobp smartphone_Mt(6px)'})[0].find('span').text
     return price
 
-# Count moving avarage with custom rolling window.
+# Count moving average with custom rolling window.
 def count_moving_avg():
     price_list = []
     for _ in range(0,10):
